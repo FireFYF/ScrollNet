@@ -6,7 +6,7 @@
 <div align="left">
 
 # Introduction
-The official Pytorch implementation for ScrollNet: Dynamic Weight Importance for Continual Learning, Visual Continual Learning workshop, ICCV 2023.
+The official Pytorch implementation for ScrollNet: Dynamic Weight Importance for Continual Learning, ICCV 2023, Visual Continual Learning workshop.
 
 # Installation
 ## Clone this github repository
