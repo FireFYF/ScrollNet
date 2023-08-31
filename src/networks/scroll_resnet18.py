@@ -6,8 +6,6 @@ from .slimmable_ops import SwitchableBatchNorm2d
 from .slimmable_ops import SlimmableConv2d, SlimmableLinear
 from widths.config import FLAGS
 
-import pdb
-
 def slimconv3x3(in_planes, out_planes, stride=1):
     """3x3 convolution with padding"""
     return SlimmableConv2d(in_planes, out_planes, kernel_size=3, stride=stride,
