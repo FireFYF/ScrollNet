@@ -1,7 +1,7 @@
 <div align="center">
 <img src="./scrollnet.gif" width="350px">
 
-# ScrollNet: Dynamic Weight Importance for Continual Learning
+# [ScrollNet: Dynamic Weight Importance for Continual Learning](http://arxiv.org/abs/2308.16567)
 
 <div align="left">
 
