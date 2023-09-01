@@ -42,3 +42,16 @@ Please modify the file 'SizeOfSubnetworks.yml'. The defult setting is for 4 subn
 
 # Acknowledgement
 The implementation is based on [FACIL](https://github.com/mmasana/FACIL), which was developed as a framework based on class-incremental learning. We suggest referring to it if you want to incorporate more CL methods into ScrollNet.
+
+# Cite
+If you find this work useful for your research, please cite:
+```bibtex
+@misc{yang2023scrollnet,
+    title={ScrollNet: Dynamic Weight Importance for Continual Learning},
+    author={Fei Yang and Kai Wang and Joost van de Weijer},
+    year={2023},
+    eprint={2308.16567},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
