@@ -25,7 +25,7 @@ conda activate ScrollNet
 conda deactivate
 ```
 
-# Launch experiments (two examples)
+# Launch experiments
 
 ## Run with ScrollNet-FT
 ```
