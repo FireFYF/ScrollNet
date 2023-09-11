@@ -31,14 +31,17 @@ conda deactivate
 ```
 python -u src/main_incremental.py --gpu 0 --approach finetuning --results-path ./results/5splits/scrollnet_ft --num-tasks 5
 ```
-
+## Run with ScrollNet-LWF
+```
+python -u src/main_incremental.py --gpu 0 --approach lwf --results-path ./results/5splits/scrollnet_lwf --num-tasks 5
+```
 ## Run with ScrollNet-EWC
 ```
 python -u src/main_incremental.py --gpu 0 --approach ewc --results-path ./results/5splits/scrollnet_ewc --num-tasks 5
 ```
 
 # Tune the number of subnetworks
-Please modify the file 'SizeOfSubnetworks.yml'. The defult setting is for 4 subnetworks with equal splitting (ScrollNet-4).  
+Please modify the file 'SizeOfSubnetworks.yml'. The default setting is for 4 subnetworks with equal splitting (ScrollNet-4).  
 
 # Acknowledgement
 The implementation is based on [FACIL](https://github.com/mmasana/FACIL), which was developed as a framework based on class-incremental learning. We suggest referring to it if you want to incorporate more CL methods into ScrollNet.
